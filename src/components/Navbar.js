@@ -39,7 +39,7 @@ const Navbar = () => {
                     {screen ? (
                         <img
                             className="mr-2 cursor-pointer"
-                            src="/home/icon.png"
+                            src="/home/Icon.png"
                             alt="Menu"
                             onClick={() => menuHandle()}
                         />
