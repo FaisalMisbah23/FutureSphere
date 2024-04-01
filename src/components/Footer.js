@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="container px-5 py-6 flex flex-wrap mx-auto items-center">
             <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
             <Link to="/" className="flex title-font font-medium items-center text-white">
-                        <img src="/home/logo.png" alt="logo" className="w-10 h-10 text-white p-2 rounded-full" />
+                        <img src="/home/Logo.png" alt="logo" className="w-10 h-10 text-white p-2 rounded-full" />
                         <span className="ml-1 text-xl">FutureSphere </span>
                     </Link>
             </div>
