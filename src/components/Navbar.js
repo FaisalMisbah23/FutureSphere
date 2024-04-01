@@ -33,7 +33,7 @@ const Navbar = () => {
             <header className="body-font bg-indigo-100 pt-4">
                 <div className={`container mx-auto flex p-2 w-[90%] flex-row items-center justify-between bg-indigo-400 ${menuOpen?"rounded-t-[25px]":"rounded-[50px]"}`}>
                     <Link to='/' className="flex title-font font-medium items-center text-white">
-                        <img src="/home/logo.png" alt="logo" className="w-10 h-10 text-white p-2 rounded-full" />
+                        <img src="/home/Logo.png" alt="logo" className="w-10 h-10 text-white p-2 rounded-full" />
                         <span className="ml-1 text-xl">FutureSphere </span>
                     </Link>
                     {screen ? (

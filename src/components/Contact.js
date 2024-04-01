@@ -1,9 +1,10 @@
 import React from 'react'
 import Form from './components/contact/Form'
 import Offices from './components/about/Offices'
-import Faq from './components/contact/Faq'
+// import Faq from './components/contact/Faq'
 import CTA from './components/home/CTA'
 import { Link } from 'react-router-dom'
+import Faq from './contact/Faq'
 
 const Contact = () => {
   return (

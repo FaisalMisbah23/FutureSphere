@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const qs=[
     {
         title:'What is included in the startup website template?',
@@ -46,9 +47,9 @@ const Faq = () => {
            </div>
            ))}
           </div>
-      <div>    <button className="inline-flex items-center text-gray-900 border-0 py-1 px-3 focus:outline-non rounded-[50px] text-base">View all
+      <div> <Link to='/faq'>   <button className="inline-flex items-center text-gray-900 border-0 py-1 px-3 focus:outline-non rounded-[50px] text-base">View all
             <img className='mt-1 ml-2' src="/contact/Vector.png" alt="" />
-             </button>  </div>
+             </button> </Link> </div>
         </div>
       </section>
     </>
