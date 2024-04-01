@@ -1,0 +1,15 @@
+.swiper-button-next{
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #7f56d9;
+    border-radius: 100%;
+    padding: 1rem;
+}
+.swiper-button-prev{
+    display: inline-flex;
+    align-items: center;
+    background-color: #7f56d9;
+    border: none;
+    padding: 1rem;
+    border-radius: 100%;
+}
