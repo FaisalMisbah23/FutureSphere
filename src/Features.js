@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import CTA from './components/home/CTA'
 const features=[
     {
@@ -34,8 +34,28 @@ const features=[
    
 ]
 const Features = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+    const scrollToHash = () => {
+      if (window.location.hash) {
+        const element = document.getElementById(window.location.hash.substring(1));
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+
+    scrollToHash();
+
+    window.addEventListener('hashchange', scrollToHash);
+
+    return () => {
+      window.removeEventListener('hashchange', scrollToHash);
+    };
+  }, []);
   return (
-    <section className="text-gray-600 body-font bg-indigo-100">
+    <section id='top' className="text-gray-600 body-font bg-indigo-100">
     <div className="container px-5 lg:py-16 md:py-12 py-8 mx-auto sm:w-[80%]">
       <div className="text-center mb-10">
         <h3 className='mb-8'><span className='px-4 py-2 bg-gray-100 font-medium text-indigo-300 rounded-3xl sm:text-xl text-md'>Features</span></h3>

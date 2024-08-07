@@ -9,23 +9,23 @@ const Footer = () => {
     <div className="border-t border-gray-200">
           <div className="container px-5 py-6 flex flex-wrap mx-auto items-center">
             <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
-            <Link to="/" className="flex title-font font-medium items-center text-white">
+            <Link to="/#top" className="flex title-font font-medium items-center text-white">
                         <img src="/home/Logo.png" alt="logo" className="w-10 h-10 text-white p-2 rounded-full" />
                         <span className="ml-1 text-xl">FutureSphere </span>
                     </Link>
             </div>
             <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-start md:w-auto">
-              <Link to="/about" className="text-white">About
+              <Link to="/about#top" className="text-white">About
               </Link>
-              <Link to="/careers" className="ml-3 text-white">Careers
+              <Link to="/careers#top" className="ml-3 text-white">Careers
               </Link>
-              <Link to="/blogs" className="ml-3 text-white">Blogs
+              <Link to="/blogs#top" className="ml-3 text-white">Blogs
 
               </Link>
-              <Link to="/pricing" className="ml-3 text-white">Pricing
+              <Link to="/pricing#top" className="ml-3 text-white">Pricing
 
               </Link>
-              <Link to="/contact" className="ml-3 text-white sm:block hidden">Contact Us
+              <Link to="/contact#top" className="ml-3 text-white sm:block hidden">Contact Us
 
               </Link>
             </span>

@@ -84,7 +84,7 @@ const Section = () => {
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{item.title}</h1>
                     <p className="leading-relaxed mb-3">{item.content}</p>
                     <div className="flex justify-end">
-                      <Link to='/blogs/blog' className="text-gray-400 inline-flex items-end md:mb-2 lg:mb-0 border-b-2 border-gray-500">Read more</Link>
+                      <Link to='/blogs/blog#top' className="text-gray-400 inline-flex items-end md:mb-2 lg:mb-0 border-b-2 border-gray-500">Read more</Link>
                     </div>
                   </div>
                 </div>

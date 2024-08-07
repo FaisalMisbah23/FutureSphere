@@ -57,11 +57,11 @@ const Jobs = () => {
       <div className="sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white border-[1px] broder-gray-200 ">
             <div className='flex sm:items-center items-start justify-between my-4 sm:mx-8 mx-6'>
                 <div className='flex flex-col sm:w-[85%] w-[100%] text-left'>
-                    <h1 className='font-semibold text-lg'>UI/UX Designerr</h1>
+                    <h1 className='font-semibold text-lg'>UI/UX Designer</h1>
                     <h1 className='text-indigo-300 text-lg'>Full Time - On site</h1>
                     <p>FutureSphere is in need of a talented Product Designer with more tha 3 years of past experience in tech sector.</p>
                 </div>
-                   <div> <Link to="/careers/jobs"> <img src="/about/Vector.png" alt="" className='w-[15] p-3 rounded-full border-[1px] border-gray-500' /></Link></div>
+                   <div> <Link to="/careers/jobs#top"> <img src="/about/Vector.png" alt="" className='w-[15] p-3 rounded-full border-[1px] border-gray-500' /></Link></div>
             </div>
       </div>
       </div>

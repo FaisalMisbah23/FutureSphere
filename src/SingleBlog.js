@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Blog from './components/home/Blog'
 
 const SingleBlog = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    
+        const scrollToHash = () => {
+          if (window.location.hash) {
+            const element = document.getElementById(window.location.hash.substring(1));
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        };
+    
+        scrollToHash();
+    
+        window.addEventListener('hashchange', scrollToHash);
+    
+        return () => {
+          window.removeEventListener('hashchange', scrollToHash);
+        };
+      }, []);
   return (
     <>
-    <div className='bg-indigo-100 sm:pt-10 pt-6'></div>
+    <div id='top' className='bg-indigo-100 sm:pt-10 pt-6'></div>
     <div className='bg-indigo-100 pb-12'>
              <div className="container mx-auto flex px-5 md:flex-row flex-col-reverse items-center bg-white sm:w-[80%] rounded-3xl">
           <div className="lg:flex-grow md:w-1/2 w-[90%] flex sm:pl-4 sm:pr-8 flex-col items-start md:text-left md:mb-0">

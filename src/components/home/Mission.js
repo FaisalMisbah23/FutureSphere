@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Mission = () => {
   return (
     <section className="text-gray-600 body-font" data-aos="fade-up" data-aos-duration="2000" >
-        <div className="container mx-auto flex px-5 lg:py-21 md:py-14 py-7 md:flex-row flex-col-reverse items-center bg-white sm:w-[80%] rounded-3xl">
+        <div className="container mx-auto flex px-5 lg:py-21 md:py-14 py-7 md:flex-row flex-col-reverse items-center bg-white sm:w-[80%]   w-[90%] rounded-3xl">
           <div className="lg:flex-grow md:w-1/2 w-[90%] lg:pr-18 md:pr-12 flex flex-col items-start md:text-left md:mb-0">
           <h3 className='mb-10'><span className='px-4 py-2 bg-gray-100 font-medium text-indigo-300 rounded-[25px] sm:text-xl text-md'>Our Mission Statement</span></h3>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Empowering the world through transformative technology solutions</h1>

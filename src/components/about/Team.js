@@ -4,7 +4,7 @@ import Carousel from './Carousel'
 const Team = () => {
   return (
     <section className="text-gray-600 body-font">
-    <div className="container sm:px-5 px-2 lg:py-16 md:py-8 py-4 mx-auto sm:w-[80%]">
+    <div className="container sm:px-5 px-2 lg:py-16 md:py-8 py-4 mx-auto sm:w-[80%] w-[90%]">
       <div className="text-center mb-10">
         <h3 className='mb-8'><span className='px-4 py-2 bg-gray-100 font-medium text-indigo-300 rounded-3xl sm:text-xl text-md'>Our Team</span></h3>
         <h1 className="sm:text-5xl text-2xl font-medium title-font text-gray-900 mb-6">Meet our team</h1>
